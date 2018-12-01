@@ -16,12 +16,12 @@ x-api-key: pMP6L9rROH2zbiS5jbuBh4twpfPv1sFSaPkisNyr
 }
 
 #################
-PATCH https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams/1
+PATCH https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams/9
 Content-Type: application/json
 x-api-key: pMP6L9rROH2zbiS5jbuBh4twpfPv1sFSaPkisNyr
 
 {
-    "name": "Natus Vincere"
+    "id": 8
 }
 
 ####################
