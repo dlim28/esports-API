@@ -1,0 +1,30 @@
+GET https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams/
+
+
+#################
+
+POST https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams
+Content-Type: application/json
+x-api-key: pMP6L9rROH2zbiS5jbuBh4twpfPv1sFSaPkisNyr
+
+{
+    "name": "SK Telecom T2",
+    "description": "SK Telecom T2 is a works team of the South Korean telecommunications company SK Telecom. At the end of 2003, SK Telecom took the StarCraft Team Orion by Lim Yo-Hwan under contract and set up the team under the conglomerate's banner.",
+    "game": "League of Legends",
+    "win": "17",
+    "loss": "12"
+}
+
+#################
+PATCH https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams/1
+Content-Type: application/json
+x-api-key: pMP6L9rROH2zbiS5jbuBh4twpfPv1sFSaPkisNyr
+
+{
+    "name": "Natus Vincere"
+}
+
+####################
+
+DELETE https://ml9nbvgdg4.execute-api.ap-southeast-2.amazonaws.com/Prod/teams/8
+x-api-key: pMP6L9rROH2zbiS5jbuBh4twpfPv1sFSaPkisNyr
