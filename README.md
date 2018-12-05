@@ -57,6 +57,10 @@ Since there is no front end you will need to currently use an application like P
 The API key will need to be put in the header under x-api-key
 
 eg. x-api-key: [YOU API KEY HERE]
+
+There are 2 types of keys:
+    - Restricted(GET requests only)
+    - Admin (GET POST PUT PATCH DELETE)
 ```
 
 ## Future Possibility
